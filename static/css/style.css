@@ -1,0 +1,1479 @@
+/* 首页 博客列表 */
+.info {
+    position: relative;
+    float: left;
+    width: 690px;
+    height: auto;
+}
+.inner {
+    width: 688px;
+    margin-bottom: 35px;
+    border: 1px #ccc solid;
+    box-shadow: 0 5px 9px #888;
+}
+.inner .tag {
+    position: relative;
+    z-index: 99;
+    width: 75px;
+    height: 75px;
+    margin: -20px 0 -50px -20px;
+    text-align: center;
+    color: #fff;
+    background-position: -26px 0 !important;
+}
+.inner .tag b {
+    display: block;
+    width: 30px;
+    height: 20px;
+    padding-top: 10px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-style: normal;
+}
+.inner .tag i {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+.inner h2 {
+    display: block;
+    width: 400px;
+    height: 20px;
+    margin: 20px auto;
+    font-size: 25px;
+    line-height: 20px;
+    text-align: center;
+}
+.inner .blog_img {
+    width: 550px;
+    height: 178px;
+    margin: 0 auto;
+    border: 1px #ccc solid;
+}
+.inner p {
+    width: 550px;
+    height: 100px;
+    margin: 10px auto;
+    overflow: hidden;
+    font-size: 14px;
+    text-indent: 30px;
+}
+.inner a {
+    position: relative;
+    display: block;
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    border-radius: 7px;
+    background: #78c9de;
+}
+.inner a:hover {
+    color: #fff;
+    background: #1facdd;
+}
+
+
+
+/* 首页右侧栏 */
+.infoside {
+    position: relative;
+    float: right;
+    width: 220px;
+    height: auto;
+}
+.bloglist {
+    width: 218px;
+    height: auto;
+    padding-bottom: 5px;
+    margin-bottom: 35px;
+    background:#fff;
+    box-shadow: 0 5px 9px #888;
+    border: 1px #ccc solid;
+}
+.list_top {
+    width: 218px;
+    height: 30px;
+    font-size: 14px;
+    color: #fff;
+    background: #8fd5ee;
+}
+.list_top p {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    line-height: 30px;
+    color: #fff;
+}
+.list_top a {
+    position: relative;
+    float: right;
+    height: 30px;
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 30px;
+    color: #fff;
+}
+.list_top a:hover {
+    margin-right: 10px;
+    color: #fff;
+}
+.hotblog i {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    background-position: 1px -27px !important;
+}
+.sortblog i {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    background-position: 1px -58px !important;
+}
+.bloglist .list_inner {
+    width: 220px;
+    height: 325px;
+    overflow: hidden;
+}
+.list_inner ul {
+    padding: 5px;
+    overflow: hidden;
+}
+.list_inner ul li {
+    float: left;
+    width: 190px;
+    height: 30px;
+    padding: 0 10px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 30px;
+    border-bottom: 1px #ccc dashed;
+}
+.list_inner ul li a {
+    float: left;
+    width: 190px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: keep-all;
+}
+
+/* 首页  end */
+
+
+
+
+/* 博客专栏页  star */
+
+/* 博客专栏页   专题推荐 */
+.info .subject_recom {
+    width: 688px;
+    height: 230px;
+    margin-bottom: 35px;
+    border: 1px #ccc solid;
+    box-shadow: 0 5px 9px #888;
+}
+.subrecom_img {
+    float: left;
+    width: 222px;
+    height: 155px;
+    margin: 35px 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.subrecom_img img {
+    width: 100%;
+    height: 100%;
+}
+.subrecom_details {
+    float: left;
+    width: 400px;
+    height: 200px;
+    padding-top: 25px;
+    margin: 15px 5px;
+}
+.subrecom_tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: block;
+    width: 35px;
+    height: 60px;
+    color: #fff;
+    background-position: -105px 0 !important;
+}
+.subrecom_details h2 {
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.subrecom_details p {
+    width: 375px;
+    height: 45px;
+    margin: 10px 0;
+    color: #888;
+}
+.subrecom_relate a {
+    width: 375px;
+    height: 45px;
+    margin: 10px 0;
+    color: #888;
+}
+.subrecom_author {
+    float: left;
+    width: 150px;
+    height: 55px;
+}
+.subrecom_author .subrecom_head {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.subrecom_author .subrecom_head img,
+.sublist_author .sublist_head img,
+.expert_author .expert_head img {
+    width: 110%;
+    height: 110%;
+}
+.subrecom_author .subrecom_name {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 35px;
+    margin-left: 10px;
+    line-height: 35px;
+}
+.subrecom_read {
+    float: right;
+    width: 250px;
+    height: 55px;
+    line-height: 55px;
+}
+.subrecom_read p,
+.sublist_read p {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin: 15px 0;
+    line-height: 25px;
+}
+.subrecom_read b,
+.subrecom_read i,
+.sublist_read b,
+.sublist_read i,
+.expert_read b,
+.expert_read i {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+    background-position: -120px -57px !important;
+}
+.subrecom_read i,
+.sublist_read i,
+.expert_read i {
+    background-position: -120px -81px !important;
+}
+
+/* 博客专栏页 专题列表 */
+
+.info .subject_kind {
+    width: 688px;
+    height: auto;
+    margin-bottom: 35px;
+    background:#fff;
+    border: 1px #ccc solid;
+    box-shadow: 0 5px 9px #888;
+}
+.subject_kind ul {
+    width: 690px;
+    height: auto;
+    overflow: hidden;
+    background:#fff;
+    box-shadow: 0 5px 9px #888;
+}
+.subject_kind  ul li {
+    width: 690px;
+    height: auto;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 60px;
+}
+.subjkind_list {
+    position: relative;
+    display: block;
+    float: left;
+    width: 210px;
+    height: 250px;
+    margin: 10px 10px;
+}
+.sublist_img {
+    width: 210px;
+    height: 250px;
+}
+.sublist_img img {
+    width: 100%;
+    height: 100%;
+}
+.sublist_tip {
+    position: absolute;
+    bottom: 0;
+    z-index: 999;
+    width: 210px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    background: rgba(128, 125, 125, .69);
+}
+.sublist_show {
+    position: absolute;
+    bottom: 0;
+    z-index: 9999;
+    width: 210px;
+    height: 250px;
+    font-size: 16px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 10, 15, .7);
+}
+.sublist_author {
+    width: 60px;
+    height: 100px;
+    margin: 0 auto;
+}
+.sublist_author .sublist_head {
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-top: 45px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+.sublist_author .sublist_name {
+    display: block;
+    width: 60px;
+    height: 35px;
+    margin-top: 5px;
+    line-height: 35px;
+}
+.sublist_read {
+    width: 192px;
+    height: 55px;
+    margin: 0 auto;
+    line-height: 55px;
+}
+.sublist_read p {
+    display: block;
+    float: left;
+    width: 96px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+}
+.sublist_read b,
+.sublist_read i {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+    background-position: -120px -57px !important;
+}
+.sublist_read i {
+    background-position: -120px -81px !important;
+}
+
+/* 博客专栏页  侧栏  */
+/* 专题分类  */
+.classifyblog i {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    background-position: 0 -83px !important;
+}
+.bloglist .classifylist_inner {
+    width: 220px;
+    height: auto;
+    overflow: hidden;
+}
+.classifylist_inner ul {
+    padding: 5px;
+    overflow: hidden;
+}
+.classifylist_inner ul li {
+    float: left;
+    width: 200px;
+    height: 50px;
+    padding: 0 5px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 50px;
+    border-bottom: 1px #ccc dashed;
+}
+.classifylist_inner ul li a {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    line-height: 50px;
+}
+
+.classifylist_inner i {
+    display: block;
+    float: left;
+    width: 33px;
+    height: 30px;
+    margin: 10px 5px;
+}
+.classifylist_inner i.mobile {
+    background-position: 7px -127px !important;
+}
+.classifylist_inner i.web {
+    background-position: -53px -127px !important;
+}
+.classifylist_inner i.enterprise {
+    background-position: -109px -127px !important;
+}
+.classifylist_inner i.code {
+    background-position: 0 -173px !important;
+}
+.classifylist_inner i.www {
+    background-position: -51px -177px !important;
+}
+.classifylist_inner i.database {
+    background-position: -108px -177px !important;
+}
+.classifylist_inner i.system {
+    background-position: 5px -219px !important;
+}
+.classifylist_inner i.cloud {
+    background-position: -53px -223px !important;
+}
+.classifylist_inner i.software {
+    background-position: -109px -220px !important;
+}
+.classifylist_inner i.other {
+    background-position: -53px -85px !important;
+}
+
+
+.bloglist .hotsubj_inner {
+    width: 220px;
+    height: auto;
+    overflow: hidden;
+}
+.hotsubj_inner ul {
+    padding: 5px;
+    overflow: hidden;
+}
+.hotsubj_inner ul li {
+    float: left;
+    width: 200px;
+    height: 70px;
+    padding: 0 5px;
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 70px;
+    border-bottom: 1px #ccc dashed;
+}
+.hotsubj_inner ul li a.hotsubj_img {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    overflow: hidden;
+    line-height: 50px;
+}
+.hotsubj_inner ul li a img {
+    width: 100%;
+    height: 100%;
+}
+.hotsubj_inner .hotsubj_info {
+    float: left;
+    width: 140px;
+    height: 60px;
+    padding: 5px 0;
+    font-size: 13px;
+    line-height: 50px;
+}
+.hotsubj_info h2 {
+    width: 140px;
+    height: 30px;
+    font-size: 17px;
+    line-height: 30px;
+}
+.hotsubj_read {
+    width: 140px;
+    height: 55px;
+    margin: 0 auto;
+    line-height: 55px;
+}
+.hotsubj_read p {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    color: #ccc;
+}
+.hotsubj_read b,
+.hotsubj_read i {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 15px;
+    margin-right: 5px;
+    background-position: 0 -265px !important;
+}
+.hotsubj_read i {
+    background-position: -27px -265px !important;
+}
+
+/* 博客专栏页  end */
+
+
+
+
+/* 博客专家页  star */
+/* 博客专家页   专家列表 */
+
+.expert_list {
+    position: relative;
+    display: block;
+    float: left;
+    width: 208px;
+    height: 210px;
+    margin: 50px 10px 10px 10px;
+    border: 1px #ccc solid;
+    box-shadow: 0 5px 9px #ccc;
+}
+.expert_author {
+    width: 80px;
+    height: auto;
+    margin: -75px auto 0 auto;
+}
+.expert_author .expert_head {
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin-top: 45px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.expert_author .expert_name {
+    display: block;
+    width: 80px;
+    height: 35px;
+    margin-top: 5px;
+    line-height: 35px;
+    text-align: center;
+}
+.exauthor_info {
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    color: #c2c2c2;
+}
+.expert_read {
+    width: 192px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px;
+    color: #999;
+}
+.expert_read p {
+    display: block;
+    float: left;
+    width: 85px;
+    height: 25px;
+    margin: 5px 5px;
+    line-height: 25px;
+}
+.showauthor {
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    text-align: center;
+    color: #1facdd;
+    border: 1px solid #1facdd;
+    border-radius: 5px;
+}
+.showauthor:hover {
+    color: #000;
+    background: #8fd5ee;
+}
+
+/* 博客专家页  end */
+
+
+
+
+/* 博客排行页  star */
+/* 博客排行页   博文列表 */
+
+
+.sortlist_top {
+    width: 688px;
+    height: 30px;
+    font-size: 15px;
+    background: #8fd5ee;
+}
+.sortlist_top p {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 30px;
+    margin-left: 5px;
+    line-height: 30px;
+    color: #fff;
+}
+.sortlist_tit {
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 1;
+    border-bottom: 1px solid #cecece;
+}
+.sort_u1,
+.sort_u2,
+.sort_u3,
+.sort_u4,
+.sort_u5 {
+    float: left;
+    padding-left: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.sort_u1 {
+    width: 35px;
+    padding-left: 20px;
+}
+.sort_u2 {
+    width: 300px;
+}
+.sort_u3 {
+    width: 102px;
+}
+.sort_u4 {
+    width: 90px;
+}
+.sort_u5 {
+    width: 96px;
+}
+.sortlist_tit em {
+    border-left: 1px solid #cecece;
+}
+.sortlist_tit .sort_u1 {
+    border: medium none;
+}
+.sortlist_ol .sort_u2 {
+    margin-top: -1px;
+}
+.sortlist_ol li {
+    height: 30px;
+    padding: 20px 0;
+    line-height: 30px;
+    vertical-align: bottom;
+}
+.sort_name,
+.sort_descript {
+    display: block;
+}
+.sort_name {
+    font-size: 14px;
+}
+.sortlist_ol .even {
+    background-color: #f6f6f7;
+}
+
+
+/* 博客专栏页 */
+.info .subject_recom {
+    width: 688px;
+    height: 230px;
+    margin-bottom: 35px;
+    background: #fff;
+    border: 1px #ccc solid;
+    box-shadow: 0 5px 9px #888;
+}
+.subrecom_img {
+    float: left;
+    width: 222px;
+    height: 155px;
+    margin: 35px 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+.subrecom_img img {
+    width: 100%;
+    height: 100%;
+}
+.subrecom_details {
+    float: left;
+    width: 400px;
+    height: 200px;
+    padding-top: 25px;
+    margin: 15px 5px;
+}
+.subrecom_tag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    display: block;
+    width: 35px;
+    height: 60px;
+    color: #fff;
+    background-position: -105px 0 !important;
+}
+.subrecom_details h2 {
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+}
+.subrecom_details p {
+    width: 375px;
+    height: 45px;
+    margin: 10px 0;
+    color: #888;
+}
+.subrecom_relate a {
+    width: 375px;
+    height: 45px;
+    margin: 10px 0;
+    color: #888;
+}
+.subrecom_author {
+    float: left;
+    width: 150px;
+    height: 55px;
+}
+.subrecom_author .subrecom_head {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.subrecom_author .subrecom_head img {
+    width: 110%;
+    height: 110%;
+}
+.subrecom_author .subrecom_name {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 35px;
+    margin-left: 10px;
+    line-height: 35px;
+}
+.subrecom_read {
+    float: right;
+    width: 250px;
+    height: 55px;
+    line-height: 55px;
+}
+.subrecom_read p {
+    display: block;
+    float: left;
+    width: 100px;
+    height: 25px;
+    margin: 15px 0;
+    line-height: 25px;
+}
+.subrecom_read b,
+.subrecom_read i {
+    display: block;
+    float: left;
+    width: 20px;
+    height: 25px;
+    margin-right: 10px;
+    background-position: -120px -57px !important;
+}
+.subrecom_read i {
+    background-position: -120px -81px !important;
+}
+
+
+/* 个人中心 */
+
+/*  个人中心头部  */
+.userinfo_top {
+    height: 168px;
+    margin-top: 30px;
+}
+.user_info {
+    padding: 20px 45px 20px 20px;
+    overflow: hidden;
+    border: 1px solid #d8d8d8;
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.userinfo_main {
+    width: 958px;
+    border-right: 1px solid #d8d8d8;
+    border-bottom: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    background: #e4e8ea;
+}
+.user_pic {
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 120px;
+    padding: 2px;
+    border: 1px solid #ddd;
+}
+.user_pic .edit_head {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    width: 126px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.user_pic img {
+    width: 120px;
+    height: 120px;
+}
+.user_msg {
+    float: right;
+    width: 735px;
+    padding-top: 20px;
+}
+.user_msg .user_head {
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+.user_msg .user_head .name,
+.user_msg .user_head .male,
+.user_msg .user_head .female {
+    float: left;
+    margin-right: 5px;
+}
+.user_msg .user_head .name {
+    font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: bold;
+    color: #526584;
+}
+.user_data {
+    padding: 12px 0;
+
+    color: #333;
+}
+.user_data div {
+    display: inline-block;
+    margin-right: 30px;
+    line-height: 24px;
+}
+.user_data span {
+    padding: 0 6px 0 2px;
+    font-family: "微软雅黑";
+    font-size: 15px;
+    vertical-align: middle;
+}
+.user_data .info_null {
+    color: #e9733a;
+}
+.user_data div b {
+    font-family: "新宋体";
+    color: #c80000;
+}
+.fred,
+a.fred:link,
+a.fred:visited {
+    color: #c80000;
+}
+a.fred:hover {
+    text-decoration: underline;
+}
+
+/* *** 个人中心左侧栏 *** */
+.sider {
+    display: inline;
+    float: left;
+}
+.userinfo_sider {
+    width: 178px;
+}
+.myMenu {
+    float: left;
+    width: 178px;
+    padding-top: 60px;
+}
+.myMenu .list {
+    padding-left: 19px;
+}
+.myMenu .list li {
+    height: 60px;
+    padding-right: 8px;
+    padding-left: 18px;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    border-left: 2px solid #e4e8ea;
+}
+.myMenu .list li.active {
+    border-left: 2px solid #365060;
+    background: #fff none repeat scroll 0 0;
+}
+.myMenu .list li em {
+    float: left;
+    height: 20px;
+    margin: 20px 0 0;
+
+    /*background: transparent url(../../static/images/public/indexback.png) no-repeat scroll 0 0;*/
+}
+.myMenu .list li em.bookshelf {
+    width: 20px;
+    margin-top: 22px;
+    background-position: -105px -426px;
+}
+.myMenu .list li em.account {
+    width: 20px;
+    background-position: -135px -426px;
+}
+.myMenu .list li em.my_info {
+    width: 20px;
+    background-position: -163px -426px;
+}
+/* *** 个人中心右侧栏 *** */
+.cont {
+    display: inline;
+    float: left;
+}
+.myblock {
+    width: 760px;
+    min-height: 285px;
+    padding: 10px;
+    background: #fff;
+}
+.channelmod {
+    margin-top: 10px;
+}
+.cont .tab {
+    position: relative;
+    height: 45px;
+    font-size: 14px;
+    line-height: 40px;
+    color: #d5d8dc;
+    border-bottom: 1px solid #d5d8dc;
+}
+.cont .tab span {
+    position: relative;
+    display: inline-block;
+    padding: 0 32px;
+}
+.cont .tab a {
+    text-decoration: none;
+    color: #333;
+}
+.cont .tab a:hover {
+    color: #78c9de;
+}
+.cont .tab span.active a {
+    font-weight: bold;
+    color: #78c9de;
+}
+.cont .tab span.active .triangle_down {
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    width: 19px;
+    height: 11px;
+    margin-left: -9px;
+    background: url(../img/index.png) no-repeat scroll -81px -265px;
+}
+.cata-u4.myblock_u4 {
+    width: 175px;
+}
+.userinfo-list-ol li {
+    height: 20px;
+    padding: 10px 0;
+    vertical-align: bottom;
+}
+.userinfo-list-ol .cata-u2 {
+    margin-top: -1px;
+}
+.userinfo-list-ol .even {
+    background-color: #f6f6f7;
+}
+.userinfo-list-ol span a.myblock_delet {
+    color: #c80000;
+}
+.userinfo-list-ol span a.myblock_delet:hover {
+    text-decoration: underline;
+    color: #c80000;
+}
+
+/* 用户信息 */
+.uc_avatarlist {
+    overflow: hidden;
+}
+.infoBlock {
+    padding: 20px 0;
+}
+.infoBlock .title {
+    height: 15px;
+    background: #efefef none repeat scroll 0 0;
+}
+.infoBlock .title h3 {
+    position: relative;
+    display: inline-block;
+    padding: 0 8px;
+    margin-top: -8px;
+    margin-left: 40px;
+    font-family: "黑体";
+    font-size: 20px;
+    font-weight: bold;
+    color: #787878;
+    background: #fff none repeat scroll 0 0;
+}
+.infotab {
+    margin-top: 20px;
+}
+.infotab .tit {
+    display: block;
+    width: 70px;
+    text-align: right;
+}
+.infotab .check {
+    padding-left: 10px;
+    border: 1px #ccc solid;
+}
+.infotab ul li {
+    height: 40px;
+    width:300px;
+    float:left;
+
+}
+.infotab ul li.info_lastarea{
+    width:600px;
+    height: 100px;
+}
+
+.infoBlock .msgstab {
+    padding: 10px 0 0 80px;
+}
+.infoBlock .msgstab .infotab {
+    width: 660px;
+}
+.fs14,
+p .fs14 {
+    font-size: 14px !important;
+}
+.infoBlock .msgstab .infotab span.fs14 {
+    float: left;
+}
+/* 个人信息 */
+.info_p {
+    float: left;
+    width: 140px;
+    margin-left: 50px;
+    text-align: center;
+}
+.info_p .mr_img {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #c1bfbf;
+}
+.info_p p {
+    padding: 12px 0;
+}
+.btn_savepic {
+    display: block;
+    width: 96px;
+    height: 25px;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    font: 100 12px/25px 宋体;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    border: 0 none;
+    background: #365260 none repeat scroll 0 0;
+}
+.portraiticon {
+    float: left;
+    width: 560px;
+}
+.portraiticon img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.cl10 {
+    height: 20px;
+}
+.save_btn {
+    display: block;
+    width: 110px;
+    height: 37px;
+    text-align: center;
+    margin-left:230px;
+    border-radius: 10px;
+    background: #78c9de;
+}
+.save_btn:hover {
+    color: #fff;
+    background: #1facdd;
+}
+.save_btn span,
+.tline a {
+    font-family: "微软雅黑";
+    font-size: 18px;
+    line-height: 35px;
+    color: #fff;
+}
+/* 我的关注 */
+.channelmod ul.myattention {
+    margin: 20px 0;
+    overflow: hidden;
+}
+.channelmod ul.myattention li {
+    float: left;
+    width: 220px;
+    height: 125px;
+    padding: 0 5px 17px;
+    margin: 0 10px 20px 10px;
+    border: 1px #ccc solid;
+}
+.channelmod ul.myattention li dl {
+    width: 220px;
+    height: 55px;
+    border-bottom: 1px solid #ccc;
+}
+.channelmod ul.myattention li dl dt {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+    overflow: hidden;
+    border: 1px #ccc solid;
+    border-radius: 50%;
+}
+.channelmod ul.myattention li dl dt img {
+    width: 100%;
+    height: 100%;
+}
+.channelmod ul.myattention li dl .attenname {
+    width: 140px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.channelmod ul.myattention li dl .attenname a {
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: #000;
+}
+.channelmod ul.myattention li dl .attenzhiw {
+    width: 140px;
+    height: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    white-space: nowrap;
+       text-overflow: ellipsis;
+    color: #000;
+    -o-text-overflow: ellipsis;
+}
+.channelmod ul.myattention li .atteninfo {
+    height: 35px;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: normal;
+       text-overflow: ellipsis;
+    word-break: break-all;
+    color: #999;
+    -o-text-overflow: ellipsis;
+}
+.channelmod ul.myattention li .addfoucs,
+.channelmod ul.myattention li .send_privatemsg {
+    top: 23px;
+    right: 114px;
+    display: inline-block;
+    height: 22px;
+    padding: 0 10px;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000;
+    background: #ececec;
+}
+.channelmod ul.myattention li .send_privatemsg {
+    margin-left: 9px;
+}
+.channelmod ul.myattention li .visit {
+    float: right;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #428bca;
+}
+
+
+
+
+
+
+
+/*  我的博客   */
+.myblog_bg {
+    background: url("../../static/img/myblog_bg.png") repeat;
+}
+.myblog_header {
+    width: 1265px;
+    height: 345px;
+    margin: 0 auto;
+    color: #fff;
+    background: url("../../static/img/myblog_head.png") no-repeat -75px 25px;
+}
+.myblog_header h2 {
+    padding: 125px 0 0 70px;
+}
+.myblog_header h2 a {
+    font: bold 24px/40px "microsoft yahei";
+    color: rgb(255, 255, 255);
+}
+.myblog_content {
+    margin-top: 20px;
+}
+.myblogside {
+    position: relative;
+    float: left;
+    width: 220px;
+    height: auto;
+}
+.myblog_info {
+    position: relative;
+    float: right;
+    width: 690px;
+    height: auto;
+}
+.myblog_main {
+    width: 1265px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+.myblog_navigator {
+    margin-top: -45px;
+}
+.myblog_navigator .navigator {
+    width: 1245px;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: RGB(69, 69, 69);
+}
+.myblog_navigator .navigator ul {
+    float: right;
+    padding: 0;
+    margin: 0;
+}
+.myblog_navigator .navigator ul li {
+    float: left;
+    width: 88px;
+    height: 26px;
+    margin-left: 10px;
+    font-size: 12px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+}
+.myblog_navigator .navigator ul li ul li a {
+    text-decoration: none;
+    color: RGB(102, 102, 102);
+}
+
+/*  我的博客侧栏  */
+.myblogside {
+    float: left;
+    width: 270px;
+    margin: 0 auto;
+}
+.myblog_panel {
+    margin-bottom: 9px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+.myblog_panel .panel_head {
+    height: 29px;
+    padding-left: 11px;
+    line-height: 29px;
+    color: RGB(51, 51, 51);
+    background: rgb(245, 245, 245);
+}
+.myblog_panel {
+    padding-bottom: 5px;
+}
+.myblog_panel .panel_body {
+    padding: 15px 16px 17px;
+    word-break: break-all;
+}
+.myblogside .profile {
+    padding-top: 29px;
+    padding-bottom: 5px;
+}
+.myblogside .blog_userface {
+    text-align: center;
+}
+.myblogside .blog_userface a.myblog_userimg {
+    display: inline-block;
+    width: 135px;
+    height: 135px;
+}
+.myblogside .blog_userface a img {
+    width: 100%;
+    height: 100%;
+}
+.myblogside .profile .blog_userface span {
+    display: block;
+    margin: 15px 0;
+}
+.myblogside .profile .blog_userface .user_name {
+    font: 16px/20px  "microsoft yahei";
+    text-decoration: none;
+    color: #666;
+}
+.myblogside .profile .interact {
+    padding-bottom: 15px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.myblogside .profile .interact a {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    padding-left: 18px;
+    margin-left: 6px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff !important;
+    background-color: #999;
+    background-repeat: no-repeat;
+}
+.myblogside .profile .blog_rank {
+    padding: 10px 4px 4px 4px;
+    margin-top: 20px;
+    margin-bottom: 13px;
+    border-top: 1px #ccc dashed;
+    border-bottom: 1px dashed #ccc;
+}
+.myblogside .profile .blog_rank li {
+    margin-bottom: 11px;
+}
+.myblogside .profile .blog_rank li span {
+    position: relative;
+    padding-left: 6px;
+}
+.myblogside .profile .blog_statistics li {
+    float: left;
+    width: 114px;
+    margin-bottom: 12px;
+    color: #333;
+}
+/* 我的博客右侧博文 */
+.myblog_info {
+    float: right;
+    width: 990px;
+}
+.myblog_info .myblog_list {
+    padding: 20px 20px 35px;
+    background: #fff;
+}
+.myblog_info .myblog_list .myblog_null img {
+    float: left;
+    margin-right: 20px;
+}
+.myblog_info .myblog_list .myblog_null span {
+    float: left;
+    padding-top: 20px;
+}
+.myblog_info .myblog_list .myblog_null span a {
+    color: #428bca;
+}
+.myblog_info .myblog_list .myblog_null span a:hover {
+    text-decoration: underline;
+}
+.myblog_artivle .userblog_list_item {
+    padding: 5px 0;
+    margin: 0 20px;
+    border-bottom: 1px #ccc dashed;
+}
+.myblog_artivle .userblog_list_item .article_title {
+    display: inline;
+    height: 30px;
+    margin: 0 !important;
+    overflow: hidden;
+    font: normal 14px/30px Arial !important;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.myblog_artivle .userblog_list_item .article_title h1 {
+    display: inline;
+    font: normal 18px/30px Arial !important;
+    vertical-align: middle;
+}
+.myblog_artivle .userblog_list_item .article_manage {
+    display: inline;
+    float: right;
+    padding: 0 !important;
+    line-height: 30px !important;
+    text-align: right !important;
+    white-space: nowrap;
+    color: #999;
+}
+.myblog_artivle .userblog_list_item .article_manage a {
+    text-decoration: none;
+    color: #ca0000;
+}

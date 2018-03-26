@@ -1,0 +1,373 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, figure, legend, button, input, textarea, th, td, html {
+	margin:0;
+	padding:0;
+}
+body, button, input, select, textarea {
+	font:12px/1.5 "microsoft yahei", "simsun", arial, sans-serif,"宋体";
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma,arial,宋体,sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+address, cite, dfn, em, var, i, b {
+	font-style:normal;
+	font-weight: normal;
+}
+code, kbd, pre, samp {
+	font-family:courier new, courier, monospace;
+}
+small {
+	font-size:12px;
+}
+ul, ol {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	outline:0 none;
+	color:#000;
+}
+a:hover {
+	color:#1facdd;
+}
+
+sup {
+	vertical-align:text-top;
+}
+sub {
+	vertical-align:text-bottom;
+}
+legend {
+	color:#000;
+}
+fieldset, img {
+	border:0;
+}
+button, input, select, textarea {
+	font-size:100%;
+}
+input {
+	border:none;
+	background:none;
+	outline:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+section, article, aside, header, footer, nav, dialog, figure {
+	display:block;
+	margin:0;
+	padding:0;
+}
+img {
+	display:block;
+}
+.clearfix:after {
+	content:"";
+	display:block;
+	height:0;
+	clear:both;
+	font-size:0;
+	visibility:hidden;
+}
+.clearfix {
+*zoom:1;
+}
+.disblock{
+	display: block;
+}
+.disnone{
+	display: none;
+}
+.logobox, .foot, .readpage, .mem-banner, .mem-priority, .classify-top, .userinfo_top {
+	width:100%;
+	min-width:960px;
+}
+.main {
+	position:relative;
+	margin:0 auto;
+	width:960px;
+	font-family:"microsoft yahei", "simsun", arial, sans-serif;
+}
+.main a:hover {
+	text-decoration:none;
+}
+.btn-search,.tag{
+	background: url(../../static/img/index.png) no-repeat;
+}
+/*  头部  */
+.header {
+	padding-top:40px;
+	_padding-top:0;
+}
+.navigation {
+	width:100%;
+	height:40px;
+	line-height:40px;
+	margin-top: 40px;
+}
+.logo{
+	width:107px;
+	height: 38px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.logo h1 {
+	text-align: center;
+	font-size: 24px;
+	line-height: 80px;
+}
+.logo img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+/* 导航 */
+.nav{
+	width:415px;
+	height: 38px;
+	position: absolute;
+	right: 215px;
+	top: 0px;
+}
+.nav li {
+	float:left;
+	display:inline;
+	font-size:16px;
+	overflow:hidden;
+}
+.nav a.normal {
+	position:relative;
+	display:inline-block;
+	color:#000000;
+	padding:0 12px;
+	transition:color 0.8s;
+	-moz-transition:color 0.8s; /* Firefox 4 */
+	-webkit-transition:color 0.8s; /* Safari and Chrome */
+	-o-transition:color 0.8s; /* Opera */
+}
+.nav a:hover {
+	color:#1facdd;
+}
+.nav a.selected, .nav a.selected:hover {
+	color: #1facdd;
+}
+/* 搜索框 */
+.search {
+	position:absolute;
+	right:0px;
+	top:0px;
+}
+.searchbox {
+	position:relative;
+	width:180px;
+	height:20px;
+	padding:5px 28px 5px 5px;
+	background-color:#fff;
+	border:1px solid #c2c2c2;
+	overflow:hidden;
+}
+.search-txt {
+	width:170px;
+	height:20px;
+	float: left;
+	font:12px/20px "microsoft yahei";
+	color:#c2c2c2;
+	background:none;
+	outline:none;
+	transition:color 0.3s linear;
+}
+.search-txt:hover, .search-txt:focus {
+	color:#444;
+}
+.btn-search {
+	position:absolute;
+	width:25px;
+	height:25px;
+	float: left;
+	right: 3px;
+	text-indent:-300%;
+	background-position:0px 0px;
+	border:none;
+	outline:none;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+
+
+/* banner图&状态栏 */
+.ban {
+	margin-bottom: 35px;
+	height: 240px;
+	padding-top: 20px;
+}
+/* 滚动图 */
+.fn-clear {
+	zoom: 1;
+}
+.box_skitter {
+	position: relative;
+	float: left;
+	width: 689px;
+	height: 240px;
+	height: 100%;
+	overflow: hidden;
+}
+.box_skitter {
+	position: relative;
+	background: none;
+}
+.box_skitterul {
+	display: none;
+}
+.box_skitter .container_skitter {
+	overflow: hidden;
+	position: relative;
+}
+.box_skitter .image {
+	overflow: hidden;
+}
+.box_skitter .image img {
+	display: none;
+}
+.box_skitter .box_clone {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	overflow: hidden;
+	display: none;
+	z-index: 20;
+}
+.box_skitter .box_clone img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+.box_skitter .prev_button {
+	position: absolute;
+	top: 50%;
+	left: -5px;
+	z-index: 99;
+	width: 57px;
+	height: 62px;
+	overflow: hidden;
+	text-indent: -9999em;
+	margin-top: -25px;
+	background:url(../../static/img/prev.png) no-repeat left top !important;
+}
+.box_skitter .next_button {
+	position: absolute;
+	top: 50%;
+	right: -5px;
+	z-index: 99;
+	width: 57px;
+	height: 62px;
+	overflow: hidden;
+	text-indent: -9999em;
+	margin-top: -25px;
+	background:url(../../static/img/next.png) no-repeat left top !important;
+}
+.box_skitter .label_skitter {
+	z-index: 150;
+	position: absolute;
+	display: none;
+}
+.loading {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	z-index: 10000;
+	margin: -16px -16px;
+	color: #fff;
+	text-indent: -9999em;
+	overflow: hidden;
+	background:url(../../static/img/ajax-loader.gif) no-repeat left top;
+	width: 31px;
+	height: 31px;
+}
+/* 状态栏 */
+.log {
+	float:right;
+	padding:20px;
+	width:180px;
+	height:200px;
+	background-color:#78c9de;
+	color:#fff;
+}
+.welcome {
+	margin:10px 0 14px;
+	font-weight:bold;
+	font-size:18px;
+}
+.btn-login {
+	display:block;
+	margin:25px 6px 0;
+	width:165px;
+	height:40px;
+	font-size:16px;
+	letter-spacing:8px;
+	line-height:38px;
+	text-align:center;
+	transition:none;
+}
+.btn-login {
+	background: -webkit-linear-gradient(#ccc, #fff, #ccc); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ccc, #fff, #ccc); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ccc, #fff, #ccc); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ccc, #fff, #ccc); /* 标准的语法 */
+    -webkit-box-shadow: 0px 5px 9px #888888;
+    -o-box-shadow: 0px 5px 9px #888888;
+    -moz-box-shadow: 0px 5px 9px #888888;
+    box-shadow: 0px 5px 9px #888888;
+}
+.btn-login:hover {
+	background: -webkit-linear-gradient(#ddd, #ccc, #ddd); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ddd, #ccc, #ddd); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ddd, #ccc, #ddd); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ddd, #ccc, #ddd); /* 标准的语法 */
+}
+/* 分页 */
+.page {
+	width: 600px;
+    padding-top: 32px;
+    text-align: left;
+}
+.page .more-page {
+    width: 55px;
+}
+.page ul {
+    display: inline-block;
+    line-height: 30px;
+}
+.page ul li{
+    float:left;
+    margin-right: 5px;
+}
+.page a.selected, .page a:hover {
+    background-color: #1facdd;
+    color: #FFF;
+    cursor:pointer;
+}
+.page a {
+    width: 30px;
+    height: 25px;
+    line-height:25px;
+    text-align: center;
+    background:#8fd5ee;
+    color: #fff;
+    transition: all 0.3s linear 0s;
+    border-radius: 5px;
+}
+.page span, .page a {
+    float: left;
+    margin: 0px 4px;
+}
